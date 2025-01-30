@@ -170,7 +170,7 @@ export default function HeroGeometric() {
           >
             <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
               Enter your email to get tomorrow's case summaries and assignment
-              question responses{" "}
+              question answers{" "}
               <span className="text-[#C90016]">
                 delivered straight to your inbox
               </span>
