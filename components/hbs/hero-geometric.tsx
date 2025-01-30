@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import type React from "react"; // Import React
 import toast from "react-hot-toast";
+import { Instagram } from "lucide-react";
 
 function ElegantShape({
   className,
@@ -210,6 +211,25 @@ export default function HeroGeometric() {
                 next 1-2 minutes, please check your spam folder.
               </p>
             )}
+          </motion.div>
+          <motion.div
+            custom={4}
+            variants={fadeUpVariants}
+            initial="hidden"
+            animate="visible"
+            className="mt-12 text-gray-600"
+          >
+            <span className="inline-flex items-center gap-2">
+              Made with <span className="text-[#C90016]">❤️</span> by feroze
+              <a
+                href="https://www.instagram.com/ferozemohideenxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-6 h-6 text-gray-600 hover:text-[#C90016] transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+            </span>
           </motion.div>
         </div>
       </div>
